@@ -1,82 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skincare Solutions</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skincare Solutions</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="nav-container">
-                <img class="logo" src="WEBPAGE/images/2.png" alt="Logo">
-                <ul class="nav-links">
-                    <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-                    <li><a href="#about"><i class="fa-regular fa-address-card"></i> About</a></li>
-                    <li><a href="#services"><i class="fa-solid fa-laptop-file"></i> Services</a></li>
-                    <li><a href="#contact"><i class="fa-solid fa-phone-volume"></i> Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <main>
-        <section id="home" class="hero">
-            <h1>Welcome to Skincare Solutions</h1>
-            <p>Your journey to radiant, healthy skin begins here.</p>
-            <img src="WEBPAGE/images/slide2.png" alt="Skincare Products">
-            <a href="#services" class="btn">Get Started</a>
-        </section>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Discover expert skincare solutions tailored for you. Enhance your natural beauty with confidence.</p>
-            <img src="WEBPAGE/images/slide33.jpg" alt="About Skincare">
-        </section>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <img class="logo" src="../web E//images/2.png" alt="Logo" />
 
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>Personalized skincare treatments, premium products, and expert advice for glowing confidence every day.</p>
-            <div class="service-gallery">
-                <img src="WEBPAGE/images/sc2.jpg" alt="Service 1">
-                <img src="WEBPAGE/images/sc1.jpg" alt="Service 2">
-                <img src="WEBPAGE/images/perfume.jpg" alt="Service 3">
-            </div>
-        </section>
+      
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
 
-        <section id="testimonials">
-            <h2>What Our Clients Say</h2>
-            <blockquote>"Amazing service! My skin has never felt better." - Satisfied Client</blockquote>
-            <div class="stars">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-            </div>
-        </section>
+        <ul class="nav-links">
+          <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#about"><i class="fa-regular fa-address-card"></i> About</a></li>
+          <li><a href="#services"><i class="fa-solid fa-laptop-file"></i> Services</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-phone-volume"></i> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form action="#" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+  <main>
+    <section id="home" class="hero">
+      <h1>Welcome to Skincare Solutions</h1>
+      <p>Your journey to radiant, healthy skin begins here.</p>
+      <img src="../web E/images/slide2.png" alt="Skincare Products" />
+      <a href="#services" class="btn">Get Started</a>
+    </section>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Discover expert skincare solutions tailored for you. Enhance your natural beauty with confidence.</p>
+      <img src="../web E/images/slide33.jpg" alt="About Skincare" />
+    </section>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>Personalized skincare treatments, premium products, and expert advice for glowing confidence every day.</p>
+      <div class="service-gallery">
+        <img src="../web E/images/sc2.jpg" alt="Service 1" />
+        <img src="../web E/images/sc1.jpg" alt="Service 2" />
+        <img src="../web E/images/perfume.jpg" alt="Service 3" />
+      </div>
+    </section>
 
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
+    <section id="testimonials">
+      <h2>What Our Clients Say</h2>
+      <blockquote>"Amazing service! My skin has never felt better." - Satisfied Client</blockquote>
+      <div class="stars">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+      </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Skincare Solutions. All rights reserved.</p>
-    </footer>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Skincare Solutions. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
